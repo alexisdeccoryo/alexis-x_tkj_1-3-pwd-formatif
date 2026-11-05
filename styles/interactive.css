@@ -1,0 +1,41 @@
+.menu a{
+    color: black;
+    transition: color 0.3s ease;
+}
+.menu a:hover{
+    color: #2563eb;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.btn-grow{
+    background-color: #2563eb;
+    color: white;
+transition: transform 0.3s ease-out;
+}
+.btn-grow:hover{
+    transform: scale(1.05);
+}
+.btn-darken{
+    background-color: #16a34a;
+    color: white;
+    transition: background-color 0.4s linear;
+}
+.btn-darken:hover {
+    background-color: #15803d;
+}
+a:focus{
+    outline: 2px solid #f59e0b;
+}
+footer{
+    margin-top: 20px;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
