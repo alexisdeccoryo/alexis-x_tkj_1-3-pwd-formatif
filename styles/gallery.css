@@ -1,0 +1,36 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+#gallery{
+    width: 900px;
+    margin: 0 auto;
+}
+#gallery h2{
+    text-align: center;
+    color: #1e293b; 
+}
+.gallery > .gallery-item{
+    padding: 12px;
+    border: 1px solid black;
+    border-radius:  8px;
+    box-sizing: border-box;
+}
+.gallery-item img{
+width: 100%;
+height: 150px;
+display: block;
+}
+.gallery-item h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+    
+footer{
+    text-align: center;
+    margin-top: 15px;
+}
+body{
+    font-family: Arial, sans-serif;
+}
