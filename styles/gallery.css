@@ -1,36 +1,51 @@
-.gallery{
+
+/* Mengatur layout galeri menggunakan CSS Grid */
+.gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-#gallery{
+
+/* Mengatur lebar dan posisi container galeri */
+#gallery {
     width: 900px;
     margin: 0 auto;
 }
-#gallery h2{
+
+/* Mengatur tampilan judul galeri */
+#gallery h2 {
     text-align: center;
-    color: #1e293b; 
+    color: #1e293b;
 }
-.gallery > .gallery-item{
+
+/* Mengatur tampilan setiap item galeri */
+.gallery > .gallery-item {
     padding: 12px;
     border: 1px solid black;
-    border-radius:  8px;
+    border-radius: 8px;
     box-sizing: border-box;
 }
-.gallery-item img{
-width: 100%;
-height: 150px;
-display: block;
+
+/* Mengatur ukuran gambar dalam item galeri */
+.gallery-item img {
+    width: 100%;
+    height: 150px;
+    display: block;
 }
+
+/* Mengatur tampilan judul setiap item */
 .gallery-item h3 {
     font-size: 16px;
     margin-top: 10px;
 }
-    
-footer{
+
+/* Mengatur posisi footer */
+footer {
     text-align: center;
     margin-top: 15px;
 }
-body{
+
+/* Mengatur jenis font halaman */
+body {
     font-family: Arial, sans-serif;
 }
