@@ -1,34 +1,51 @@
+/* Mengatur tampilan dasar halaman */
 body{
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
+/* Mengatur warna background header */
 #main-header{
     background-color: #1E3A5F;
 }
+
+/* Mengatur posisi dan jarak navbar */
 .navbar{
 display: flex; justify-content: space-between; align-items: center; padding: 15px 30px;
 }
+
+/* Mengatur tampilan logo */
 .logo{
     color: white;
     font-weight: bold;
     font-size: 22px;
 }
+
+/* Mengatur susunan menu navigasi */
 .nav-menu{
     display: flex;
     gap: 24px;
     margin: 0;
     padding: 0;
 }
+
+/* Menghilangkan bullet pada daftar menu */
 .nav-menu > li {
     list-style: none;
 }
+
+/* Mengatur tampilan link navigasi */
 .nav-menu a {
     color: #E2E8F0;
     text-decoration: none;
 }
+
+/* Mengatur warna link saat diarahkan kursor */
 .nav-menu a:hover {
     color: #93C5FD;  
 }
+
+/* Mengatur posisi dan jarak footer */
 footer{
     text-align: center;
     margin-top: 50px;
