@@ -1,22 +1,31 @@
-header{
+/* Mengatur tampilan header */
+header {
     text-align: center;
     background-color: #1e293b;
     color: white;
     padding: 30px;
 }
+
+/* Mengatur tampilan judul bagian components dan pages */
 #components h2, #pages h2 {
     color: #1e293b;
     font-size: 24px;
 }
-main a{
+
+/* Mengatur warna link di dalam main */
+main a {
     color: #2563eb;
 }
-footer{
+
+/* Mengatur tampilan footer */
+footer {
     font-size: 14px;
     text-align: center;
     background-color: #cbd5e1;
     padding: 16px;
 }
-main{
+
+/* Memberikan jarak pada sisi kiri konten utama */
+main {
     padding-left: 300px;
 }
