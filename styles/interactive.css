@@ -1,10 +1,15 @@
+/* Mengatur warna link menu dan transisinya */
 .menu a{
     color: black;
     transition: color 0.3s ease;
 }
+
+/* Mengatur warna link saat diarahkan kursor */
 .menu a:hover{
     color: #2563eb;
 }
+
+/* Mengatur tampilan dasar tombol */
 .btn{
     display: inline-block;
     padding: 12px 24px;
@@ -12,28 +17,42 @@
     text-decoration: none;
     margin-right: 10px;
 }
+
+/* Mengatur warna dan efek transisi tombol grow */
 .btn-grow{
     background-color: #2563eb;
     color: white;
 transition: transform 0.3s ease-out;
 }
+
+/* Membuat tombol membesar saat diarahkan kursor */
 .btn-grow:hover{
     transform: scale(1.05);
 }
+
+/* Mengatur warna dan transisi tombol darken */
 .btn-darken{
     background-color: #16a34a;
     color: white;
     transition: background-color 0.4s linear;
 }
+
+/* Mengubah warna tombol saat diarahkan kursor */
 .btn-darken:hover {
     background-color: #15803d;
 }
+
+/* Mengatur tampilan link saat mendapatkan fokus */
 a:focus{
     outline: 2px solid #f59e0b;
 }
+
+/* Mengatur jarak footer */
 footer{
     margin-top: 20px;
 }
+
+/* Mengatur susunan dan jarak menu */
 .menu{
     display: flex;
     gap: 30px;
